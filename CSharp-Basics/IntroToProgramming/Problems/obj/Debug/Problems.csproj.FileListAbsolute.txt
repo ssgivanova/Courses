@@ -1,6 +1,0 @@
-C:\STACY\PROJECTS_2015\GITHUB\Courses\CSharp-Basics\IntroToProgramming\Problems\bin\Debug\Problems.exe.config
-C:\STACY\PROJECTS_2015\GITHUB\Courses\CSharp-Basics\IntroToProgramming\Problems\bin\Debug\Problems.exe
-C:\STACY\PROJECTS_2015\GITHUB\Courses\CSharp-Basics\IntroToProgramming\Problems\bin\Debug\Problems.pdb
-C:\STACY\PROJECTS_2015\GITHUB\Courses\CSharp-Basics\IntroToProgramming\Problems\obj\Debug\Problems.csprojResolveAssemblyReference.cache
-C:\STACY\PROJECTS_2015\GITHUB\Courses\CSharp-Basics\IntroToProgramming\Problems\obj\Debug\Problems.exe
-C:\STACY\PROJECTS_2015\GITHUB\Courses\CSharp-Basics\IntroToProgramming\Problems\obj\Debug\Problems.pdb
