@@ -1,3 +1,6 @@
+import java.util.Locale;
+import java.util.Scanner;
+
 
 public class _3FormatNumbers {
 
@@ -9,7 +12,18 @@ public class _3FormatNumbers {
 	
 	public static void main(String[] args) {
 		
-
+		Locale.setDefault(Locale.US); 
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter 3 number - 1 positive integer and 2 floating-point :");
+		
+		short a = sc.nextShort();
+		double b = sc.nextDouble();
+		double c = sc.nextDouble();
+		
+		System.out.printf("|%-10X|",a);		
+		System.out.print(String.format("%10s",Integer.toBinaryString(a)).replace(' ', '0'));
+		System.out.printf("|%10.2f|%-10.3f|",b,c);
 	}
 
 }
