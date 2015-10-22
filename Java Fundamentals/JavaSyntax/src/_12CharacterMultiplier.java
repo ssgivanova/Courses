@@ -9,9 +9,9 @@ public class _12CharacterMultiplier {
 	public static void main(String[] args) {
 		
 				
-		//int code = multiplyCharacters("Gosho", "Pesho");
+		int code = multiplyCharacters("Gosho", "Pesho");
 		//int code = multiplyCharacters("123", "522");
-		int code = multiplyCharacters("a", "aaaa");
+		//int code = multiplyCharacters("a", "aaaa");
 			
 		System.out.println(code);
 
@@ -29,7 +29,7 @@ public class _12CharacterMultiplier {
 		}
 		
 		for (int i = 0; i < length; i++) {
-			int code = (str1.charAt(i))*(str1.charAt(i));
+			int code = (str1.charAt(i))*(str2.charAt(i));
 			sum += code;
 		}
 		totalSum = sum + calculateRemainderCode(str1,str2);

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 
 public class _6ConvertFromBase7ToDecimal {
 
@@ -5,7 +7,9 @@ public class _6ConvertFromBase7ToDecimal {
 	
 	public static void main(String[] args) {
 		
-
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Insert integer number ");
+		int n = Integer.parseInt(sc.next(),7);
+		System.out.println(n);
 	}
-
 }
