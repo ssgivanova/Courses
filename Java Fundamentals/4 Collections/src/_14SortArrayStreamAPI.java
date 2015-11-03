@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Stream;
+//import java.util.stream.Stream;
 
 public class _14SortArrayStreamAPI {
 	
@@ -25,16 +25,17 @@ Scanner sc = new Scanner(System.in);
 		System.out.println("Enter order - ascending / descending :");	
 		String order = sc.next().toLowerCase();
 		
-		if(order.equals("ascending")){
-			numbers.stream()
-			        .sorted((n1,n2) -> n1.compareTo(n2))
-			        .forEach(n -> System.out.println(n) + " ");
-		}else if(order.equals("descending")){
-			numbers.stream()
-	        	   .sorted((n1,n2) -> n2.compareTo(n1))
-	        	   .forEach(n -> System.out.println(n) + " ");
-		}else{
-			System.out.println("Invalid order");
-		}
+//		if(order.equals("ascending")){
+//			numbers.stream()
+//			        .sorted((n1,n2) -> n1.compareTo(n2))
+//			        .forEach(n -> System.out.println(n) + " ");
+//		}else if(order.equals("descending")){
+//			numbers.stream()
+//	        	   .sorted((n1,n2) -> n2.compareTo(n1))
+//	        	   .forEach(n -> System.out.println(n) + " ");
+//		}else{
+//			System.out.println("Invalid order");
+//		}	
+		
 	}
 }

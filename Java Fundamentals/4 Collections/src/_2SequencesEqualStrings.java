@@ -28,35 +28,5 @@ public class _2SequencesEqualStrings {
 			}
 			System.out.println();
 		}
-		
-//		HashMap <String,Integer> wordsCount = new HashMap<String, Integer>();
-//		String word;
-//		Integer count;
-//		for (int i = 0; i < words.length; i++) {
-//			word = words[i];
-//			count = wordsCount.get(word);
-//			if(count == null) {
-//				count = 0;
-//			}			
-//			wordsCount.put(word, count+1);
-//		}
-		
-//		print words repetions
-//		Iterator<String> iterator = wordsCount.keySet().iterator();
-//		while(iterator.hasNext()){
-//			String key = iterator.next();
-//			System.out.println(key+" - > "+ wordsCount.get(key));
-//		}
-		
-		//print only the keys
-						
-//		for (String key : wordsCount.keySet()) {
-//			int countKey = wordsCount.get(key);
-//			for (int i = 0; i < countKey; i++) {
-//				System.out.print(key +" ");
-//			}
-//			System.out.println();
-//		}
 	}
-
 }

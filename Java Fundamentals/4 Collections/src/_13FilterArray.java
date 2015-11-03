@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.stream.Stream;
+//import java.util.stream.Stream;
 
 public class _13FilterArray {
 	
@@ -13,9 +13,6 @@ public class _13FilterArray {
 		
 		System.out.println("Enter some strings :");
 		String [] text = sc.nextLine().split(" ");
-		Arrays.asList(text).stream().filter(s -> s.length() > 3).forEach(System.out::println());
-		
-		
-		
+		//Arrays.asList(text).stream().filter(s -> s.length() > 3).forEach(System.out::println());
 	}
 }

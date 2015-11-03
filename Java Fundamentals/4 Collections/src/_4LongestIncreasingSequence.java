@@ -20,8 +20,7 @@ public class _4LongestIncreasingSequence {
 		for (int i = 0; i < numbers.length; i++) {
 			numbers[i] = Integer.parseInt(elements[i]);
 		}
-		
-		
+				
 		int maxCount = 1;
 		int startIndex = 0;
 		int currentIndex;

@@ -28,8 +28,6 @@ public class _6CountSpecifiedWord {
 		}
 		
 		System.out.println("Target word's count : " + targetCount);
-		
-		
 	}
 
 }
