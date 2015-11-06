@@ -1,12 +1,7 @@
-import java.awt.Rectangle;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
-
-import com.sun.org.apache.bcel.internal.generic.INSTANCEOF;
-
 import plane.Circle;
 import plane.PlaneShape;
 import plane.Triangle;
